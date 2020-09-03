@@ -11,7 +11,8 @@ Neste projeto utilizamos nosso conhecimentos de css , HTML e javascript para rec
 -justify context sempre segue a direção do flex direction 
 -align-items: flex-start; alinha pel inicio (a esquerda) do flex column
 - uma div filha (que nao é principal, ou seja não é filha direta de um elemento que foi definido como flex) vem criada por padrão com display:  block; 
-- https://fontawesome.com/ site para buscar icones , atraves de um js , basta adinicionar o link que ele envia e vc jah pode adicionar o html do icone 
+- https://fontawesome.com/ site para buscar icones , atraves de um js , basta adinicionar o link que ele envia e vc jah pode adicionar o html do icone  <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+
 - pading cima baixo 
 - pading cima direita baixo esquerda 
 - .botao:hover para mudar a pintura quando passa o mouse 
@@ -27,3 +28,52 @@ Neste projeto utilizamos nosso conhecimentos de css , HTML e javascript para rec
                     <i class="fas fa-info-circle"></i>
  </div>
 ``` 
+## classes wrapper 
+- São classes que envelopam um conteúdo para que os filhos de primeiro grau herdem características 
+- dessa forma vocÊ pode jogar tudo para esquerda ou direita movendo apenas o wrapper 
+ - dessa forma vocÊ pode por exemplo alinha o texto e o titulo sempre se os dois dependerem da classe container por exemplo 
+
+ - .filmeprincipal container afeta somente o que está dentro de filme principal e container 
+ -plugin jquery (está entrando em desuso) mas é bom pra aprender a usar 
+ - https://owlcarousel2.github.io/OwlCarousel2/
+ - baixar a pasta do owl carrousel 
+ - criar uma pasta para o plugin wx: owl 
+ - na pasta docs -> assets -> vendors -> jquery.min 
+ - transferir para a pasta owl criada 
+ - docs -> assets -> owlcarousel -> owl.carousel.min (versao minificada do carousel)
+ - transferir para a pasta owl criada 
+ - transferir para pasta owl criada > 
+ - owl -> dist -> assets -> owl.carousel.min e ownl.theme .default.min.css 
+ ```
+ <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+
+    <!--responsividade-->
+    <link rel="stylesheet" href="style/responsive.css">
+
+    <!--owl css-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+```
+- o js deve ser sempre a ultima coisa a ser carregada na pagina 
+
+```
+
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
+ 
+
+``` 
+Pegando todo o tamanho
+```
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+}
+```
+# parte 8 
