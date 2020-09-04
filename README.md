@@ -1,6 +1,7 @@
 # Recriando a página da Netflix 
 Neste projeto utilizamos nosso conhecimentos de css , HTML e javascript para recriar um front-end semelhante ao da gigante do streaming Netflix
 
+![](img/Capturar.PNG)
 
 # Clone do Netflix 
 - Neste projeto , desenvolvemntos uma front-end idêntica a da Netflix . 
