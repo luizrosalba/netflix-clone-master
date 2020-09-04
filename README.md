@@ -1,5 +1,3 @@
-
-
 # Recriando a página da Netflix 
 Neste projeto utilizamos nosso conhecimentos de css , HTML e javascript para recriar um front-end semelhante ao da gigante do streaming Netflix
 
@@ -114,4 +112,31 @@ Pegando todo o tamanho
 ```
 # parte 8 
 
+## Aplicando estilos dependendo do tamanho da tela 
 
+
+- máx 700 px  joga pra baixo o botao quando a tela for 700 px 
+- fornece uma margem top para nao ficarem tao grudados quando a tela diminuir 
+```
+@media screen and (max-width:700px){
+    header .container{
+    display: flex;
+    flex-direction: column;
+    }
+
+    .botao{
+        margin-top: 5px;
+        width: 300px;
+    }
+
+}
+- min 1000px 700 px 
+- descrição ocupa só 50 % da tela 
+@media screen and (min-width:1000px){
+    .descricao{
+        width: 50%;
+    }
+}
+```
+- cursor: pointer; 
+- muda o cursor em cima do objeto 
