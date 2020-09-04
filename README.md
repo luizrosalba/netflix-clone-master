@@ -1,5 +1,41 @@
+
+
 # Recriando a página da Netflix 
 Neste projeto utilizamos nosso conhecimentos de css , HTML e javascript para recriar um front-end semelhante ao da gigante do streaming Netflix
+
+
+# Clone do Netflix 
+- Neste projeto , desenvolvemntos uma front-end idêntica a da Netflix . 
+- Aprendemos conceitos sobre CSS , HTML5 e Javascritp 
+- Utilizamos a extensão Live Server do Vs code para visualizar em tempo real as 
+alterações feitas no navegador .
+- Usamos também a extensão auto rename tag para que ao modificar uma tag a de fechamento também seja modificiada 
+- dica: Escrever html. faz surgir a opção html5 que ao ser clicada formnece a estrutura 
+padrão do html 
+- tags são divs , logo header , footer , etc são divs 
+- alt + shift + para baixo clona a linha 
+- webkits - aumentam a compatibilidade do css 
+- sempre resetar o css antes de começar um site 
+
+```
+ *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+``` 
+declarando variaveis no css bom para declarar as cores principais do site 
+```
+:root{
+    --vermelho:#E50914;
+    --preta:#141414;
+}
+```
+- google fonts contem fontes externas para seu projeto 
+
+- flex box alinha os elementos em tela 
+- row é a propriedade padrao 
+
 - Melhora o contraste do texto 
 ```
  background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),  url('../img/capa-house.jpg');
@@ -77,3 +113,5 @@ Pegando todo o tamanho
 }
 ```
 # parte 8 
+
+
